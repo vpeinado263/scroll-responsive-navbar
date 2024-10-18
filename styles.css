@@ -1,6 +1,21 @@
+/*******RESET*******/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: fantasy;
+    overflow-x: hidden;
+}
+
 .header-home-container {
     height: 100vh;
     width: 100%;
+    background-image: url(https://janikvonrotz.ch/images/javascript-logo.png);
+    background-size: contain;
+    background-position: center;
+    color: black;
 }
 .nav-container   {
     display: flex;
@@ -11,18 +26,22 @@
     position: fixed;
     width: 90%;
     transition: 0.5s;
+    
 }
 .inicio {
     font-size: 2em;
+    
 }
 .nav-container > .icono {
     display: flex;
     align-items: center;
     column-gap: 0.8px;
+    text-decoration: none;
 }
 .navigation > .menu {
     display: flex;
     column-gap: 4rem;
+    list-style-type: none;
 }
 .navigation > .menu > .menu-item > a {
     transition: 0.3s;
@@ -40,7 +59,7 @@
     margin-left: 2%;
 }
 .home > h1 {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     font-size: 5rem;
     margin-bottom: 1rem;
 }
