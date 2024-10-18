@@ -33,3 +33,7 @@ La implementacion mejora la experiencia visual y la usabilidad del sitio.
 - Vinculación de archivos JavaScript y HTML.
 - Manipulación básica del DOM.
 - Uso de `window.onscroll` para detectar eventos de scroll.
+
+## Nuevos Términos Aprendidos
+
+- **Vanilla**: Se refiere a la programación utilizando tecnologías web estándar sin el uso de bibliotecas o frameworks. En este proyecto, utilicé **Vanilla HTML**, **Vanilla CSS**, y **Vanilla JavaScript**, lo que me permitió entender mejor las características fundamentales de cada lenguaje.
