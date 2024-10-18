@@ -8,6 +8,27 @@ body {
     font-family: fantasy;
     overflow-x: hidden;
 }
+/*********necessary********/
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 0;
+    font-family: Arial;
+    width: 200px;
+    height: 3.3rem;
+    transform: 0.5s;
+}
+.button:hover {
+    background-color: gray;
+}
 
 .header-home-container {
     height: 100vh;
