@@ -6,7 +6,7 @@
 }
 body {
     font-family: fantasy;
-    overflow-x: hidden;
+    overflow-y: scroll;
 }
 /*********necessary********/
 .button {
@@ -29,13 +29,15 @@ body {
 .button:hover {
     background-color: gray;
 }
+/***************************/
 
 .header-home-container {
     height: 100vh;
     width: 100%;
     background-image: url(https://janikvonrotz.ch/images/javascript-logo.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color: black;
 }
 .nav-container   {
@@ -48,10 +50,14 @@ body {
     width: 90%;
     transition: 0.5s;
     
+    
 }
 .inicio {
+    color: yellow;
+    background-color: black;
     font-size: 2em;
-    
+    border: 2px solid black;
+    border-radius: 0.2rem;
 }
 .nav-container > .icono {
     display: flex;
@@ -83,4 +89,10 @@ body {
     color: rgb(0, 0, 0);
     font-size: 5rem;
     margin-bottom: 1rem;
+}
+.content {
+    height: 100vh;
+    background-color: rgb(248, 220, 61);
+    padding: 2rem;
+    text-align: center;
 }
