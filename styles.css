@@ -1,0 +1,20 @@
+.header-home-container {
+    height: 100vh;
+}
+
+.nav-container > .log {
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+}
+
+.navigation > .menu {
+    display: flex;
+    column-gap: 3rem;
+}
+.navigation > .menu > .menu-item > a {
+    transition: 0.3s;
+}
+.navigation > .menu > .menu-item > a:hover {
+    color: blue;
+}
