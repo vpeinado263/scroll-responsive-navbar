@@ -37,3 +37,7 @@ La implementacion mejora la experiencia visual y la usabilidad del sitio.
 ## Nuevos Términos Aprendidos
 
 - **Vanilla**: Se refiere a la programación utilizando tecnologías web estándar sin el uso de bibliotecas o frameworks. En este proyecto, utilicé **Vanilla HTML**, **Vanilla CSS**, y **Vanilla JavaScript**, lo que me permitió entender mejor las características fundamentales de cada lenguaje.
+
+
+  Puedes ver el proyecto en vivo aquí: [scroll-responsive-navbar](https://consumiendo-api-rest-contries-yhyq.vercel.app/)
+
